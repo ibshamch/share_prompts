@@ -1,0 +1,41 @@
+.prompt-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 150px;
+  padding: 0.5em;
+  border: black 1px solid;
+  border-radius: 0.5em;
+  gap: 6px;
+}
+.delete-btn {
+  align-self: end;
+}
+.card-text {
+  font-size: 1.1rem;
+  align-self: center;
+  padding: 0.2em;
+  height: 85px;
+  outline: none;
+  border: none;
+  resize: none;
+  overflow-y: auto; /* Ensure vertical scrollbar is displayed when needed */
+}
+/* WebKit-based browsers (Chrome, Safari) */
+.card-text::-webkit-scrollbar {
+  width: 4px; /* Set the width of the scrollbar */
+}
+
+.card-text::-webkit-scrollbar-thumb {
+  background-color: #082442; /* Set the color of the scrollbar thumb */
+  border-radius: 6px; /* Set the border-radius of the scrollbar thumb */
+}
+
+.card-text::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Set the color of the scrollbar track */
+}
+
+.card-text::-webkit-scrollbar-thumb:hover {
+  background-color: #0056b3; /* Set the color of the scrollbar thumb on hover */
+}

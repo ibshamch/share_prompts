@@ -1,0 +1,7 @@
+.prompt-card-list {
+  padding: 1em;
+  flex-wrap: wrap;
+  width: 1500px;
+  justify-content: center;
+  margin: 0 auto;
+}
